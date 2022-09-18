@@ -1,0 +1,65 @@
+body{
+    direction: rtl;
+}
+/* .navbar-nav .nav-link.active, .navbar-nav .show > .nav-link{
+    background:none;
+} */
+
+.nav-link{
+    border:none;
+}
+
+.SectionOne{
+    background: #875AA1;
+    width:100%;
+    height: 90vh;
+}
+
+.SectionTwo{
+    background: #F4F5F7;
+    width: 100%;
+}
+
+.SectionThree{
+color: white;
+font-size:x-large;
+text-align: center;
+}
+
+.SectionFour{
+    background: #FFCF4D;
+    width:100%;
+    height:fit-content; 
+    margin-bottom: 50px;
+}
+
+hr{
+    width: 50%;
+}
+
+@media only screen and (max-width: 600px) 
+{ 
+    img.sectionFourImg{
+        width: 150px;
+    }
+    p.chakra-text.sectionFourText{
+        font-size: small;
+    }
+    button.chakra-button.sectionFourButton{
+        margin-bottom: 20px;
+    }
+    h2.chakra-heading{
+        font-size: x-large;
+        margin-top: 10px;
+    }
+    div.SectionThree{
+        display: none;
+    }
+    p.chakra-text.SectionTwoText{
+        font-size: small;
+        text-align: center;
+    }
+    svg.SectionTwoSVG{
+
+    }
+}
