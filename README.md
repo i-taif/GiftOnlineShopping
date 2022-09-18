@@ -1,2 +1,2 @@
 # GiftOnlineShopping
-###Building frontend for gift shop
+### Building frontend for gift shop
